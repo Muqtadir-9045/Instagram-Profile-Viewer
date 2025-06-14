@@ -1,0 +1,47 @@
+{
+    "cats": {
+      "name": "cats",
+      "followers": 25000,
+      "following": 5,
+      "posts": [
+        {
+          "image": "https://media.istockphoto.com/id/1290233518/photo/ginger-cat-portrait.jpg?s=2048x2048&w=is&k=20&c=RUhMhFaX5ScVRzE1SwU-ZHiQIYGIY5An31C8YyLOagM=",
+          "likes": 200,
+          "comments": 18
+        },
+        {
+          "image": "https://cdn.pixabay.com/photo/2015/11/16/14/43/cat-1045782_1280.jpg",
+          "likes": 902,
+          "comments": 78
+        },
+        {
+          "image": "https://cdn.pixabay.com/photo/2016/09/07/23/10/cat-1652880_1280.jpg",
+          "likes": 500,
+          "comments": 90
+        }
+      ]
+    },
+    "dogs": {
+      "name": "dogs",
+      "followers": 35000,
+      "following": 12,
+      "posts": [
+        {
+          "image": "https://cdn.pixabay.com/photo/2018/03/29/11/59/animal-3272072_1280.jpg",
+          "likes": 320,
+          "comments": 25
+        },
+        {
+          "image": "https://cdn.pixabay.com/photo/2021/11/06/18/07/samoyed-6773995_1280.jpg",
+          "likes": 756,
+          "comments": 95
+        },
+        {
+          "image": "https://cdn.pixabay.com/photo/2023/10/01/12/27/border-collie-8287329_1280.jpg",
+          "likes": 620,
+          "comments": 80
+        }
+      ]
+    }
+  }
+  
