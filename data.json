@@ -1,47 +1,222 @@
 {
-    "cats": {
-      "name": "cats",
-      "followers": 25000,
-      "following": 5,
-      "posts": [
-        {
-          "image": "https://media.istockphoto.com/id/1290233518/photo/ginger-cat-portrait.jpg?s=2048x2048&w=is&k=20&c=RUhMhFaX5ScVRzE1SwU-ZHiQIYGIY5An31C8YyLOagM=",
-          "likes": 200,
-          "comments": 18
-        },
-        {
-          "image": "https://cdn.pixabay.com/photo/2015/11/16/14/43/cat-1045782_1280.jpg",
-          "likes": 902,
-          "comments": 78
-        },
-        {
-          "image": "https://cdn.pixabay.com/photo/2016/09/07/23/10/cat-1652880_1280.jpg",
-          "likes": 500,
-          "comments": 90
-        }
-      ]
-    },
-    "dogs": {
-      "name": "dogs",
-      "followers": 35000,
-      "following": 12,
-      "posts": [
-        {
-          "image": "https://cdn.pixabay.com/photo/2018/03/29/11/59/animal-3272072_1280.jpg",
-          "likes": 320,
-          "comments": 25
-        },
-        {
-          "image": "https://cdn.pixabay.com/photo/2021/11/06/18/07/samoyed-6773995_1280.jpg",
-          "likes": 756,
-          "comments": 95
-        },
-        {
-          "image": "https://cdn.pixabay.com/photo/2023/10/01/12/27/border-collie-8287329_1280.jpg",
-          "likes": 620,
-          "comments": 80
-        }
-      ]
-    }
+  "flipkart": {
+    "name": "Flipkart",
+    "followers": 780000,
+    "following": 150,
+    "posts": [
+      {
+        "image": "https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Logo.png",
+        "likes": 4500,
+        "comments": 300
+      },
+      {
+        "image": "https://images.moneycontrol.com/static-mcnews/2018/04/5-flipkart-office-explore.jpg",
+        "likes": 3800,
+        "comments": 210
+      },
+      {
+        "image": "https://media.licdn.com/dms/image/v2/D4D1AAQGmMfygzCuhbA/storylineheaderimage-shrink_400_400/B4DZZcZfG6HIAM-/0/1745306907867?e=2147483647&v=beta&t=ljfgaK9GzxkPltlhG9YR1WKCfGWzD763Lp6Xyfd9Yfc",
+        "likes": 5200,
+        "comments": 450
+      }
+    ]
+  },
+  "amazon": {
+    "name": "Amazon",
+    "followers": 1200000,
+    "following": 200,
+    "posts": [
+      {
+        "image": "https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png",
+        "likes": 8900,
+        "comments": 600
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1602359337719-a8bcbd1f7b51?q=80&w=1908&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "likes": 7700,
+        "comments": 520
+      },
+      {
+        "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202211/merlin_187804491_a2e2f92d-746d-46d4-94b3-2e5a6bf5ba40-mediumsquareat3x-sixteen_nine.jpg?size=1200:675",
+        "likes": 9200,
+        "comments": 690
+      }
+    ]
+  },
+  "tcs": {
+    "name": "TCS",
+    "followers": 540000,
+    "following": 180,
+    "posts": [
+      {
+        "image": "https://i.pinimg.com/736x/aa/a2/45/aaa245759726ab04e968b9bff4981a52.jpg",
+        "likes": 3100,
+        "comments": 220
+      },
+      {
+        "image": "https://timesofindia.indiatimes.com/photo/msid-78563089/78563089.jpg?resizemode=4",
+        "likes": 2900,
+        "comments": 190
+      },
+      {
+        "image": "https://media.istockphoto.com/id/1267582949/photo/tata-consultancy-services-ltd-offices.jpg?s=612x612&w=0&k=20&c=0s7mnnlbvNOWRPxsWMbEPEpPZErOf6eXscfMLOD5a5Y=",
+        "likes": 3500,
+        "comments": 250
+      }
+    ]
+  },
+  "infosys": {
+    "name": "Infosys",
+    "followers": 470000,
+    "following": 140,
+    "posts": [
+      {
+        "image": "https://media.istockphoto.com/id/1338072522/photo/infosys-u-s-education-center-infosys-is-based-in-india-and-is-a-worldwide-it-ai-and-digital.jpg?s=612x612&w=0&k=20&c=EiCIzquMSZx3IUWeQPqQIuLwOKDt3Gj9UQJy2UMvpmU=",
+        "likes": 2700,
+        "comments": 180
+      },
+      {
+        "image": "https://officesnapshots.com/wp-content/uploads/2023/04/infosys-consulting-offices-timisoara-1.jpg",
+        "likes": 3200,
+        "comments": 210
+      },
+      {
+        "image": "https://www.infosys.com/content/dam/infosys-web/en/about/images/esg-policies.jpg",
+        "likes": 4000,
+        "comments": 310
+      }
+    ]
+  },
+  "capgemini": {
+    "name": "Capgemini",
+    "followers": 390000,
+    "following": 120,
+    "posts": [
+      {
+        "image": "https://www.capgemini.com/wp-content/uploads/2025/02/default-logo.webp",
+        "likes": 2300,
+        "comments": 150
+      },
+      {
+        "image": "https://i0.wp.com/www.recruitmenthub.agency/wp-content/uploads/2024/05/capgemini-company-logo-sign-building-capgemini-company-logo-sign-building-capgemini-french-multinational-272177357.webp?fit=800%2C533&ssl=1",
+        "likes": 2800,
+        "comments": 170
+      },
+      {
+        "image": "https://news.examsdaily.in/wp-content/uploads/2024/12/Capgemini-Chennai-Job-Vacancy-2024-.jpg",
+        "likes": 2600,
+        "comments": 200
+      }
+    ]
+  },
+  "wipro": {
+    "name": "Wipro",
+    "followers": 410000,
+    "following": 100,
+    "posts": [
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/1200px-Wipro_Primary_Logo_Color_RGB.svg.png",
+        "likes": 2500,
+        "comments": 160
+      },
+      {
+        "image": "https://www.enterpriseitworld.com/wp-content/uploads/2020/06/wipro.jpg",
+        "likes": 2700,
+        "comments": 190
+      },
+      {
+        "image": "https://officesnapshots.com/wp-content/uploads/2024/12/wipro-offices-johannesburg-14.jpg",
+        "likes": 3000,
+        "comments": 210
+      }
+    ]
+  },
+  "hdfc": {
+    "name": "HDFC Bank",
+    "followers": 550000,
+    "following": 160,
+    "posts": [
+      {
+        "image": "https://img.etimg.com/thumb/msid-121402418,width-1200,height-900,resizemode-4,imgsize-12884/hdfc-bank-stock-price-livestock-price-today-live-updates-26-may-2025.jpg",
+        "likes": 3700,
+        "comments": 220
+      },
+      {
+        "image": "https://media.istockphoto.com/id/539025577/photo/hdfc-bank-an-indian-bank.jpg?s=612x612&w=0&k=20&c=JumKUCz2DHea2iwACjzdlxV5w8rKgUE_O6u16WtS_Cw=",
+        "likes": 4200,
+        "comments": 280
+      },
+      {
+        "image": "https://msftstories.thesourcemediaassets.com/sites/45/2023/01/HDFC-Microsoft.png",
+        "likes": 3900,
+        "comments": 240
+      }
+    ]
+  },
+  "ibm": {
+    "name": "IBM",
+    "followers": 600000,
+    "following": 210,
+    "posts": [
+      {
+        "image": "https://static.startuptalky.com/2021/04/ibm-logo-startuptalky.jpg",
+        "likes": 4600,
+        "comments": 300
+      },
+      {
+        "image": "https://assets.techrepublic.com/uploads/2022/05/ibm-announces-4000-qubits.jpeg",
+        "likes": 4900,
+        "comments": 330
+      },
+      {
+        "image": "https://images.indianexpress.com/2022/09/IBM.jpg",
+        "likes": 5300,
+        "comments": 360
+      }
+    ]
+  },
+  "techmahindra": {
+    "name": "Tech Mahindra",
+    "followers": 420000,
+    "following": 130,
+    "posts": [
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj_YS7I2p1Gc27NfeBkdOnlcuW4sl_4VrzQ&s",
+        "likes": 2900,
+        "comments": 190
+      },
+      {
+        "image": "https://cio.eletsonline.com/wp-content/uploads/2019/11/Tech-Mahindra.jpg",
+        "likes": 3300,
+        "comments": 250
+      },
+      {
+        "image": "https://www.freshersvoice.com/wp-content/uploads/2024/09/tech-mahindra-walk-in-drive.webp",
+        "likes": 3600,
+        "comments": 280
+      }
+    ]
+  },
+  "reliance": {
+    "name": "Reliance Industries",
+    "followers": 980000,
+    "following": 250,
+    "posts": [
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Reliance_Industries.svg/1200px-Reliance_Industries.svg.png",
+        "likes": 6200,
+        "comments": 400
+      },
+      {
+        "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2024/05/RELIANCE-INDUSTRIES.jpg",
+        "likes": 6800,
+        "comments": 440
+      },
+      {
+        "image": "https://madhyamamonline.com/h-upload/2023/09/08/1500x900_2064099-reliance.webp",
+        "likes": 7200,
+        "comments": 480
+      }
+    ]
   }
-  
+}
